@@ -1,0 +1,163 @@
+/* CSS styles */
+
+.container{
+
+
+
+
+    /* i want to add a back ground image which is exist on ../image/image.jpg*/
+    background-image: url(../../assets/image/kalen-emsley-Bkci_8qcdvQ-unsplash.jpg);
+    /* background-repeat: no-repeat;
+    background-size: 100vmax;
+  
+    /* i want to add some blur effect */
+    /* backdrop-filter: blur(10px); */
+    
+    /* i want to this image  take 100% hight and weigh and remove unwanted margin and padding*/
+    /* width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0; */ 
+   
+    background-size: cover; /* or 100% 100% to stretch to container size */
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh; /* or auto, depending on your needs */
+    /* margin: 0px;
+    padding: 0px; */
+    /* left: 29px; */
+    /* margin-left: 80%; */
+    /* padding-left: 80%; */
+    margin-left: 0px;
+    
+    /* margin-right top down all willbe 0px */
+    margin-right: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    /* padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+     */
+
+}
+
+
+
+.border-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #000; /* Adjust color and size as needed */
+    padding: 10px; 
+    /* margin: 10px;  */
+    /* i want TO ADD SOME BLUR */
+    backdrop-filter: blur(20px);
+
+}
+
+.homepage-label {
+    /* Additional styles for the 'Homepage' label */
+}
+
+.auth-links {
+    /* Additional styles for the 'login' and 'create account' links */
+}
+
+.login, .create-account {
+    padding: 0 10px;
+    /* Additional styles for the 'login' and 'create account' texts */
+}
+
+
+.text{
+    color: #f8f8f8;
+    padding: 2%;
+    text-align: center;
+    font-size: 50px;
+
+}
+
+
+
+
+
+.search{
+    margin-top: 0;
+    display: flex;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    border: 2px solid #e8b8b8; /* Adjust color and size as needed */
+    padding: 10px; /* Adjust padding as needed */
+    margin: 10px; /* Adjust margin as needed */
+    /* i want TO ADD SOME BLUR */
+    backdrop-filter: blur(20px);
+    
+    width: 50%;
+    margin-left: 20%;
+}
+
+input{
+
+
+    width: 60%;
+    border: none;
+    border-left: 3px solid #000;
+    outline: none;
+    background-color: transparent;
+    color: #000000;
+    font-size: 18px;
+    padding: 0 10px;
+    
+}
+
+/* .input{
+margin-left: 40%;
+margin-right: 40%;
+} */
+
+.Trending{
+    backdrop-filter: blur(20px);
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40%;
+    margin-right: 40%;
+    align-items: center;
+    border: 2px solid #e8b8b8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

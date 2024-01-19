@@ -1,0 +1,652 @@
+.prent_container {
+  width: 100vw;
+  height: 100vh;
+
+
+
+
+}
+
+.container1 {
+  /* i want to add a back ground image which is exist on ../image/image.jpg*/
+  background-image: url(../../assets/image/kalen-emsley-Bkci_8qcdvQ-unsplash.jpg);
+  /* background-repeat: no-repeat;
+    background-size: 100vmax;
+  
+    /* i want to add some blur effect */
+  /* backdrop-filter: blur(10px); */
+
+  /* i want to this image  take 100% hight and weigh and remove unwanted margin and padding*/
+  /* width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0; */
+
+  background-size: cover; /* or 100% 100% to stretch to container size */
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 20vh; /* or auto, depending on your needs */
+  /* margin: 0px;
+    padding: 0px; */
+  /* left: 29px; */
+  /* margin-left: 80%; */
+  /* padding-left: 80%; */
+  margin-left: 0px;
+
+  /* margin-right top down all willbe 0px */
+  margin-right: 100%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  /* padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+     */
+  padding: 2%;
+  color: #ffffff;
+}
+
+.border-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid #000; /* Adjust color and size as needed */
+  padding: 10px;
+  /* margin: 10px;  */
+  /* i want TO ADD SOME BLUR */
+  backdrop-filter: blur(20px);
+}
+
+.homepage-label {
+  /* Additional styles for the 'Homepage' label */
+}
+
+.auth-links {
+  /* Additional styles for the 'login' and 'create account' links */
+}
+
+.login,
+.create-account {
+  padding: 0 10px;
+  /* Additional styles for the 'login' and 'create account' texts */
+}
+
+.text {
+  color: #f8f8f8;
+  padding: 2%;
+  text-align: center;
+  font-size: 50px;
+}
+
+.search {
+  margin-top: 0;
+  display: flex;
+  /* justify-content: space-between; */
+  /* align-items: center; */
+  border: 2px solid #e8b8b8; /* Adjust color and size as needed */
+  padding: 10px; /* Adjust padding as needed */
+  margin: 10px; /* Adjust margin as needed */
+  /* i want TO ADD SOME BLUR */
+  backdrop-filter: blur(20px);
+
+  width: 50%;
+  margin-left: 20%;
+}
+
+input {
+  width: 60%;
+  border: none;
+  border-left: 3px solid #000;
+  outline: none;
+  background-color: transparent;
+  color: #000000;
+  font-size: 18px;
+  padding: 0 10px;
+  font-size: larger;
+  color: #ffffff;
+}
+
+/* .input{
+margin-left: 40%;
+margin-right: 40%;
+} */
+
+.Trending {
+  backdrop-filter: blur(20px);
+  display: flex;
+  width: 20%;
+  gap: 1%;
+  /* justify-content: space-between; */
+  margin-left: 40%;
+  margin-right: 40%;
+  align-items: center;
+  border: 2px solid #e8b8b8;
+  padding: 0.5%;
+  font-size: larger;
+  font-weight: bold;
+  text-align: left;
+  /* i want avoide text overflow if overflow then go hidden */
+  white-space: nowrap;
+  overflow: hidden;
+
+  /* text-overflow: word ; */
+}
+
+.img_container {
+   /* add a scroll property */
+  /* overflow: scroll; */
+
+
+
+
+  margin-top: 14%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  height: 50vh;
+  width: 100vw;
+  color: #000;
+  border: #e8b8b8;
+
+  scroll-behavior: smooth;
+  overflow: scroll; 
+  
+  /* or auto, depending on your needs */
+  /* height: 100%;  */
+
+}
+
+.popup {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  margin-top: 10%;
+  border: 2px solid rgb(111, 223, 99);
+  background-color: #ffffff;
+  height: 80vh;
+  width: 90vw;
+  margin-left: 10%;
+  box-shadow: 8px 8px 8px 4px rgb(77, 204, 145);
+  margin-top: 2%;
+
+  .image-id {
+    font-size: large;
+    font-weight: bold;
+    position: relative;
+  }
+
+  /* position: fixed; */
+  /* top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; */
+  /* background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s, visibility 0.3s; */
+
+  /* other styles... */
+}
+
+.popup-content {
+  display: flex;
+
+  /* other styles... */
+}
+
+.image-id {
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* other styles... */
+}
+
+img {
+  width: 100%;
+  /* other styles... */
+}
+
+.popup-right {
+  width: 60%;
+  margin: 0;
+  padding: 0;
+  height: 50%;
+  /* border: 2px solid red; */
+  /* other styles... */
+}
+
+.close-modal {
+  position: absolute;
+  top: 0;
+  right: 0;
+  /* other styles... */
+}
+
+.download {
+  color: #000;
+  font-size: xx-large;
+  font-weight: bold;
+  padding: 9%;
+}
+
+.size-form .table {
+  /* Add your styles for the container */
+  /* border: 0.5px solid gray; */
+  /* display: flex; */
+  /* text-align: center;
+  justify-content: center; */
+  font-weight: bold;
+  margin-left: 12%;
+  padding: 3%;
+}
+
+.size-form .size-option {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px; /* Adjust the margin as needed */
+}
+
+.size-form .size-option input[type="radio"] {
+  margin-left: 0px; 
+  padding: 12%;
+  /* width: 10vw; */
+
+}
+
+.size-option {
+  /* border: 2px solid #e8b8b8; */
+  padding: 1%;
+  text-align: center;
+  justify-content: center;
+}
+
+.size-label {
+  /* margin-left: 22%; */
+  gap: 1%;
+  font-weight: bold;
+}
+
+.table {
+  border: 2px solid rgb(174, 174, 174);
+  font-size: larger;
+}
+
+.size-option {
+  margin: 0px;
+  padding: 0px;
+  background-color: rgb(230, 229, 229);
+  font-size: x-large;
+  /* border: 2px solid red; */
+}
+
+button {
+  font-size: large;
+  /* margin-left: 30%; */
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+/* .popup-info{
+
+margin: 0;
+padding: 0;
+margin-bottom: 50%;
+
+} */
+
+/* .Information{
+
+
+margin-top: 42%;
+/* margin-left: 50%; */
+/* margin-left: 0px; */
+/* margin-right: 20%; */
+
+/* }  */
+
+/* Information{
+
+margin-left: 20%;
+
+
+
+
+
+} */
+
+.Information {
+  /* padding: 6%; */
+  /* margin-top: 22%; */
+
+  > strong {
+    /* font-size: xxx-large; */
+    text-align: center;
+    justify-content: center;
+    /* margin-left: 12rem; */
+    text-align: center;
+    justify-content: center;
+    padding-left: 29%;
+    padding-bottom: 5%;
+  }
+}
+
+.image-details {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three columns */
+  gap: 10px; /* This adds space between the grid items */
+  margin-left: 22%;
+}
+
+.detail-header {
+  font-weight: bold; /* Makes the header text bold */
+  padding: 5px; /* Adds some padding around the text */
+  font-size: small;
+}
+
+.detail {
+  padding: 5px; /* Adds some padding around the text */
+  font-weight: bold;
+  font-size: small;
+}
+
+.image-tags {
+  font-size: x-large;
+  /* bold */
+  font-weight: bold;
+}
+
+.close-modal {
+  font-size: xx-large;
+  /* position: ; */
+  margin-left: 0px;
+  margin-right: 10%;
+}
+
+.popup-left {
+  /* height: 40vh; */
+  /* i want add hight will be fixed for all image */
+  height: auto;
+  /* float: left; */
+
+  overflow: scroll;
+  height: 60vh;
+
+  width: 40vw;
+  /* position: relative; */
+  margin-left: 0px;
+  /* display: block;  */
+  /* other styles... */
+}
+
+.image-tags {
+  padding-top: 4em;
+}
+
+
+
+
+
+
+/* 769 */
+
+
+/* Responsive styles */
+@media (max-width: 2560px) { /* For tablets and smaller devices */
+  .parent_container {
+    /* Adjust styles for smaller screens */
+
+    width: 95vw;
+
+  }
+  .border-box{
+    padding: 0;
+  }
+
+  .search{
+    padding: 0;
+  }
+
+  .Trending{
+    padding: 0;
+    border: none;
+    width: 40vw;
+    margin-left: 24%;
+  }
+ .img_container{
+  margin-top: 8%;
+  height: 100vh;
+ }
+
+
+
+.popup{
+height: 90vh;
+width: 90vw;
+margin-left: 5%;
+
+}
+
+.image-id{
+/* margin-left: 22%; */
+/* font-size:small; */
+
+margin-left: 10%;
+/* margin-left: 1vh; */
+}
+.image-tags{
+
+    padding-top: 2%;
+    font-size: small;
+
+}
+
+
+.download {
+  color: #000;
+  font-size: x-large;
+  font-weight: bold;
+  padding: 0%;
+}
+
+
+
+.table{
+
+margin-left: 0px;
+/* height: 10vh; */
+width: 25vw;
+justify-content: center;
+
+
+    /* margin-left: 22%; */
+    gap: 1%;
+    font-weight: bold;
+}
+
+.size-form .table {
+  /* border: 0.5px solid gray; */
+  /* display: flex; */
+  /* font-weight: bold; */
+  margin-left: 1%;
+  padding: 1%;
+}
+
+
+
+.size-option{
+
+  font-size: xx-small;
+  input{
+width: 0px;
+
+  }
+}
+
+
+.size-form .size-option input[type="radio"] {
+  margin-left: 0px; 
+  padding: 12%;
+  width: 39vw;
+
+
+}
+
+
+
+
+
+.size-label{
+margin-left: 10%;
+}
+
+
+
+
+#Big_gap{
+margin-left: 16%;
+
+}
+
+
+
+/* .close-modal{
+
+
+
+} */
+
+.Information {
+  /* padding: 6%; */
+  /* margin-top: 22%; */
+  /* margin-left: -37%; */
+  margin: 0;
+  padding: 0;;
+  /* font-size: small; */
+
+
+
+
+
+
+
+  > strong {
+    /* padding: 6%; */
+    font-size: small;
+    /* text-align: center; */
+    /* justify-content: center; */
+    /* margin-right:18rem; */
+  }
+}
+
+
+
+.image-details {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* gap: 10px; */
+  margin-left: 0px;
+}
+
+
+.detail-header {
+  font-weight: bold; /* Makes the header text bold */
+  padding: 1px; /* Adds some padding around the text */
+  font-size: small;
+}
+
+.detail {
+  padding: 1px; /* Adds some padding around the text */
+  /* font-weight: bold; */
+  font-size: xx-small;
+}
+
+
+
+
+
+  }
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 480px) { /* For mobile phones */
+
+
+
+
+
+
+
+
+  .image-details {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* gap: 10px; */
+    margin-left: 0px;
+  }
+  
+  
+  .detail-header {
+    font-weight: bold; /* Makes the header text bold */
+    padding: 1px; /* Adds some padding around the text */
+    font-size: small;
+  }
+  
+  .detail {
+    padding: 1px; /* Adds some padding around the text */
+    /* font-weight: bold; */
+    font-size: xx-small;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* Other responsive styles */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
