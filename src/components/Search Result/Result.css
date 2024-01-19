@@ -612,6 +612,143 @@ margin-left: 16%;
 
 
 
+  .download {
+    color: #000;
+    font-size: large;
+    font-weight: bold;
+    padding: 0%;
+  }
+  
+  
+  
+  .table{
+  
+  margin-left: 0px;
+  /* height: 10vh; */
+  width: 35vw;
+  justify-content: center;
+  
+  
+      /* margin-left: 22%; */
+      gap: 1%;
+      font-weight: bold;
+  }
+  
+  .size-form .table {
+    /* border: 0.5px solid gray; */
+    /* display: flex; */
+    /* font-weight: bold; */
+    margin-left: 1%;
+    padding: 1%;
+  }
+  
+  
+  
+  .size-option{
+  
+    font-size: xx-small;
+    input{
+  width: 0px;
+  
+    }
+  }
+  
+  
+  .size-form .size-option input[type="radio"] {
+    margin-left: 0px; 
+    padding: 12%;
+    width: 39vw;
+  
+  
+  }
+  
+  
+  
+  
+  
+  .size-label{
+  margin-left: 10%;
+  }
+  
+  
+
+
+  button {
+    font-size: x-small;
+    /* margin-left: 30%; */
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+
+  .Information {
+    /* padding: 6%; */
+    /* margin-top: 22%; */
+    /* margin-left: -37%; */
+    margin: 0;
+    padding: 0;;
+    /* font-size: small; */
+  
+  
+  
+  
+  
+  
+  
+    > strong {
+      padding: 6%;
+      font-size: small;
+      margin-left: 0px;
+      /* text-align: center; */
+      /* justify-content: center; */
+      /* margin-right:18rem; */
+    }
+  }
+
+
+
+
+  /* .image-details {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* gap: 10px; */
+    /* margin-left: 0px; */
+  /* } */
+  
+/*   
+  .detail-header {
+    font-weight: bold; /* Makes the header text bold */
+    /* padding: 1px; Adds some padding around the text */
+    /* font-size: small;
+  } */
+   
+  /* .detail {
+    padding: 1px; 
+    /* font-weight: bold; */
+    /* font-size: xx-small;
+  } */ 
+   
+
+.image-details {
+  display: grid;
+  grid-template-columns: auto 1fr; /* Two columns: The first as wide as the content, the second taking up the remaining space */
+  align-items: start; /* Aligns items to the top of the container */
+}
+
+.detail-header {
+  font-weight: bold;
+  padding: 1px;
+  font-size: small;
+  text-align: left;
+  /* Ensure that the header takes up the first column */
+}
+
+.detail {
+  font-size: xx-small;
+  text-align: right;
+  /* Ensure that the detail takes up the second column and is aligned to the right */
+}
+
 
 
 
