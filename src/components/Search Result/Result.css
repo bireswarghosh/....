@@ -287,6 +287,10 @@ button {
   /* margin-left: 30%; */
   margin-top: 5%;
   margin-bottom: 5%;
+  margin-left: 2%;
+  margin-right: 9%;
+  margin-top: 2%;
+  background-color: rgb(70, 232, 70);
 }
 
 /* .popup-info{
@@ -330,6 +334,7 @@ margin-left: 20%;
     justify-content: center;
     padding-left: 29%;
     padding-bottom: 5%;
+    /* border-bottom: 2px solid rgb(107, 255, 107); */
   }
 }
 
@@ -358,12 +363,11 @@ margin-left: 20%;
   font-weight: bold;
 }
 
-.close-modal {
-  font-size: xx-large;
-  /* position: ; */
+/* .close-modal {
+
   margin-left: 0px;
   margin-right: 10%;
-}
+} */
 
 .popup-left {
   /* height: 40vh; */
@@ -385,7 +389,13 @@ margin-left: 20%;
   padding-top: 4em;
 }
 
-
+.close-modal {
+  background-color: red;
+  /* font-size: small; */
+  margin-left: 0px;
+  margin-right: 10%;
+  margin-top: 2%;
+}
 
 
 
@@ -394,7 +404,7 @@ margin-left: 20%;
 
 
 /* Responsive styles */
-@media (max-width: 2560px) { /* For tablets and smaller devices */
+@media (max-width: 2562px) { /* For tablets and smaller devices */
   .parent_container {
     /* Adjust styles for smaller screens */
 
@@ -563,6 +573,11 @@ margin-left: 16%;
   font-size: xx-small;
 }
 
+.close-modal {
+  position: absolute;
+  top: 0;
+ right: -1%;
+}
 
 
 
@@ -580,7 +595,21 @@ margin-left: 16%;
 
 @media (max-width: 480px) { /* For mobile phones */
 
-
+  .popup-left {
+    /* height: 40vh; */
+    /* i want add hight will be fixed for all image */
+    /* height: auto; */
+    /* float: left; */
+  
+    overflow: scroll;
+    height: 20%;
+  
+    /* width: 40vw; */
+    /* position: relative; */
+    /* margin-left: 0px; */
+    /* display: block;  */
+    /* other styles... */
+  }
 
 
 
@@ -592,8 +621,10 @@ margin-left: 16%;
     grid-template-columns: repeat(3, 1fr);
     /* gap: 10px; */
     margin-left: 0px;
+    margin-top: 100%;
   }
   
+
   
   .detail-header {
     font-weight: bold; /* Makes the header text bold */
@@ -678,6 +709,9 @@ margin-left: 16%;
     /* margin-left: 30%; */
     margin-top: 5%;
     margin-bottom: 5%;
+    margin-left: 0px;
+    margin-right: 9%;
+    margin-top: 2%;
   }
 
 
@@ -699,6 +733,9 @@ margin-left: 16%;
       padding: 6%;
       font-size: small;
       margin-left: 0px;
+      margin-left: -55px;
+      margin-top: 5%;
+      margin-top: 100%;
       /* text-align: center; */
       /* justify-content: center; */
       /* margin-right:18rem; */
@@ -708,52 +745,42 @@ margin-left: 16%;
 
 
 
-  /* .image-details {
+    .image-details {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    /* gap: 10px; */
-    /* margin-left: 0px; */
-  /* } */
+   
+     margin-left: 0px;  
+     /* font-size: 50%; */
+     /* i want  */
+     /* text-align: start; */
+     margin-left: -129px;
+     margin-top: 10%;
+   }   
   
-/*   
+   
   .detail-header {
-    font-weight: bold; /* Makes the header text bold */
-    /* padding: 1px; Adds some padding around the text */
-    /* font-size: small;
-  } */
+    font-weight: bold;  
+  
+      font-size: small;
+  } 
    
-  /* .detail {
+   .detail {
     padding: 1px; 
-    /* font-weight: bold; */
-    /* font-size: xx-small;
-  } */ 
+  
+     font-size: xx-small;
+  }   
    
 
-.image-details {
-  display: grid;
-  grid-template-columns: auto 1fr; /* Two columns: The first as wide as the content, the second taking up the remaining space */
-  align-items: start; /* Aligns items to the top of the container */
+
+
+
+
+  .close-modal {
+    font-size: small;
+    margin-left: 0px;
+    margin-right: 10%;
+    margin-top: 2%;
 }
-
-.detail-header {
-  font-weight: bold;
-  padding: 1px;
-  font-size: small;
-  text-align: left;
-  /* Ensure that the header takes up the first column */
-}
-
-.detail {
-  font-size: xx-small;
-  text-align: right;
-  /* Ensure that the detail takes up the second column and is aligned to the right */
-}
-
-
-
-
-
-
 
 
 

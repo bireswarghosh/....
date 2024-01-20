@@ -294,17 +294,17 @@ function Result() {
                         </button>
                         {/* ... Additional options ... */}
                         <div className="Information">
-                          <strong>Information </strong>
+                          <strong id="one">Information </strong>
                           <div className="image-details">
                             <div className="detail-header">User</div>
                             <div className="detail-header">User Id</div>
-                            <div className="detail-header">Type</div>
+                            <div id="ww" className="detail-header">Type</div>
 
                             <div className="detail">{selectedImage.user}</div>
                             <div className="detail">
                               {selectedImage.user_id}
                             </div>
-                            <div className="detail">{selectedImage.type}</div>
+                            <div id="ww" className="detail">{selectedImage.type}</div>
 
                             <div className="detail-header">Views</div>
                             <div className="detail-header">Downloads</div>
